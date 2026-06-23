@@ -24,13 +24,12 @@ document.body.innerHTML = "Found game: " + game;
 window.EJS_core = "gba";
 window.EJS_pathtodata = "data/";
 
-const script = document.createElement("script");
+const script = document.createElement<script>
 const params = new URLSearchParams(window.location.search);
 const game = params.get("game");
 
-document.body.innerHTML =
-  "<h1>Found game: " + game + "</h1>";
-
+document.body.innerHTML = "<h1>Found game: " + game + "</h1>";
+</script>
 </script>
 
 </body>
