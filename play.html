@@ -20,7 +20,7 @@ const params = new URLSearchParams(window.location.search);
 const game = params.get("game");
 
 window.EJS_player = "#game";
-window.EJS_gameUrl = games[game];
+document.body.innerHTML = "Found game: " + game;
 window.EJS_core = "gba";
 window.EJS_pathtodata = "data/";
 
