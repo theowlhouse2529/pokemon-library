@@ -1,21 +1,11 @@
-# EmulatorJS Cores
+# Compression Libraries
 
-This package contains the stable cores for EmulatorJS.
+<!-- ## Extract7z.js
 
-Lean more about EmulatorJS at https://emulatorjs.org
+## Extractzip.js -->
 
-Cores are build using this repository:
-https://github.com/EmulatorJS/build
+## Libunrar.js
 
-## How to install
+Emscripten port of RARLab's open-source unrar library
 
-To install all cores, run the following command:
-
-```bash
-npm install @emulatorjs/cores
-```
-To install a specific core, run the following command:
-
-```bash
-npm install @emulatorjs/core-<core-name>
-```
+Source: https://github.com/tnikolai2/libunrar-js
