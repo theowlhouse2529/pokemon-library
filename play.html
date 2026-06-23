@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 <meta charset="utf-8">
@@ -9,27 +10,10 @@
 <div id="game"></div>
 
 <script>
-
-const games = {
-
-stonedragon: "https://www.dropbox.com/scl/fi/awdsv6unocqodz2827jq8/Stone-Dragon-3-ENG-Version-by-Raizen.zip?rlkey=iktk8vjybyn858wl2v505mi2d&st=86wbnazf&dl=1"
-
-};
-
-const params = new URLSearchParams(window.location.search);
-const game = params.get("game");
-
-window.EJS_player = "#game";
-document.body.innerHTML = "Found game: " + game;
-window.EJS_core = "gba";
-window.EJS_pathtodata = "data/";
-
-const script = document.createElement<script>
 const params = new URLSearchParams(window.location.search);
 const game = params.get("game");
 
 document.body.innerHTML = "<h1>Found game: " + game + "</h1>";
-</script>
 </script>
 
 </body>
